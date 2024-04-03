@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.buttonOne {
+    padding: 10px;
+    border: solid 3px #a3386c;
+    background-color: pink;
+    color: fuchsia;
+    
+}
+
+.buttonTwo {
+    padding: 10px;
+    border: solid 3px  #a3386c;
+    background-color: pink;
+    color: fuchsia;
+}
+
+.off{
+    opacity: 0.5;
+}
