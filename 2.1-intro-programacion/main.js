@@ -1,5 +1,5 @@
 // //Aquñi va el código JavaScript
-// 'use strict';
+'use strict';
 
 // document.querySelector('h1').innerHTML = 'Hi';
 
@@ -25,6 +25,27 @@
 //const content = '<h2>Lorem ipsum</h2> <img src="http://via.placeholder.com/350x150" alt="boceto de imagen"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>';
 //titlePage.innerHTML = content;
 
-//Ejercicio classList
-const buttonOne = document.querySelector(".buttonOne");
-buttonOne.classList.add("off");
+// //Ejercicio classList
+// const buttonOne = document.querySelector(".buttonOne");
+// buttonOne.classList.add("off");
+
+//Clase:
+console.log("holis")
+
+let pet = "carmiña";
+let age = 30;
+let price = 25.90;
+
+// seleccionar elementos de mi documento HTML
+const paragraph = document.querySelector("p");
+console.log(paragraph);
+
+const paragraphSecond = document.querySelector(".second")
+console.log(paragraphSecond);
+
+const pets = document.querySelector(".listName");
+pets.innerHTML = "<li>carmiña</li>";
+
+const namePet = "fifi";
+pets.innerHTML += "<li>" + namePet + "</li>";
+//+= es un acumulador: lo que ya tienes, añádele esto nuevo. Con solo = lo sustituye.
