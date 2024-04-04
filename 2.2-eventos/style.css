@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.textAfter, .textBefore{  
+    color: chartreuse;
+    size: 150px;
+}
+
+.submit{
+    background-color: darksalmon;
+    border: 2px solid salmon;
+    border-radius: 5px;
+}
+
+.button2{
+    background-color: cadetblue;
+    border: solid 2px turquoise;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttonClick{
+    background-color: aqua;
+    border: solid 4px lime;
+    border-radius: 5px;
+    padding: 20px;
+    transform: translate(50px, 50px);
+}
+
+.lorem {
+    color: black;
+}
