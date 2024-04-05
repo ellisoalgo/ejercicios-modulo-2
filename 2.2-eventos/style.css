@@ -33,3 +33,10 @@
 .lorem {
     color: black;
 }
+
+.textBox{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
