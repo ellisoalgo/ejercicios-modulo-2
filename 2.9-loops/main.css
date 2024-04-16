@@ -1,0 +1,29 @@
+:root {
+  --light-cyan: #14d9c4;
+  --dark-cyan: #2f9f8d;
+  --orange: #c93825;
+  --dark-grey: #5d5d5d;
+  --white: #f6f6f6;
+}
+
+.page.darkmode {
+  background-color: var(--dark-grey);
+}
+
+.page.darkmode * {
+  color: var(--white);
+}
+
+.darkmode .title {
+  padding-left: .5em;
+  width: 70%;
+  border-bottom: solid 4px var(--dark-cyan);
+}
+
+.darkmode .card {
+  background-color: var(--dark-grey);
+}
+
+.card.red{
+  background-color: darkred;
+}
