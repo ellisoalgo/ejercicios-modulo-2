@@ -54,3 +54,35 @@ const girlsComplete = girls.map((item)=> {
     return newItem
 });
 console.log(girlsComplete);
+
+//Ejercicio 1 - map
+
+const marks = [5, 4, 6, 7, 9];
+const inflatedMarks = marks.map((grade) =>grade+1);
+console.log(inflatedMarks);
+
+//Ejercicio 2 - map
+
+const names = ['María', 'Lucía', 'Susana', 'Rocío', 'Inmaculada'];
+const greetings = names.map((name) => 'Bienvenida ' + name);
+console.log(greetings);
+
+//Ejercicio 3 - map
+
+const users = [
+    {name: 'María', isPremium: false},
+    {name: 'Lucía', isPremium: true},
+    {name: 'Susana', isPremium: true},
+    {name: 'Rocío', isPremium: false},
+    {name: 'Inmaculada', isPremium: false},
+];
+
+const greeting = users.map(user => {
+    if (user.isPremium) {
+        return `Bienvenida ${user.name}. Gracias por confiar en nosotras.`;
+    } else {
+        return `Bienvenida ${user.name}.`;
+    }
+});
+
+greetings.forEach(greeting => console.log(greeting));
